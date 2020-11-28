@@ -1,7 +1,7 @@
 /** @format */
 
-function sum(num1: number, num2: number) {
-	return num1 + num2;
-}
+let activity: any[];
 
-console.log(sum(+'3', 1));
+activity = ['sport', 2];
+
+console.log(activity);

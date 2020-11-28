@@ -1,5 +1,4 @@
 /** @format */
-function sum(num1, num2) {
-    return num1 + num2;
-}
-console.log(sum(+'3', 1));
+var activity;
+activity = ['sport'];
+console.log(activity);
