@@ -1,7 +1,9 @@
 /** @format */
 
-let activity: any[];
+export type compositeType = number;
 
-activity = ['sport', 2];
+function add(a: number, b: number): compositeType {
+	return a + b;
+}
 
-console.log(activity);
+console.log(add(3, 5));
